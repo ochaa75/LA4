@@ -88,7 +88,7 @@ public class Fungsi_Invers {
                     System.out.println("Anggota Himpunan Tidak terdapat di himpunan A atau B");
                 }
                 if (SamaA == true && SamaB == true) {
-                    HimpunanRelasi[i] = temp2[1];
+                    HimpunanRelasi[i] = temp2[i];
                     HimpunanAsal[i] = temp[i];
                 }
             } while (SamaA == false || SamaB == false);
